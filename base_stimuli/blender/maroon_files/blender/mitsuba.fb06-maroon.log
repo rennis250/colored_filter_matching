@@ -1,0 +1,2 @@
+2018-11-09 17:59:52 INFO  main [mitsuba.cpp:275] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
+2018-11-09 17:59:52 INFO  main [mitsuba.cpp:377] Parsing scene description from "test.xml" ..

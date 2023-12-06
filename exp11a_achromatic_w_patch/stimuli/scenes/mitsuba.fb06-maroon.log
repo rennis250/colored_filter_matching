@@ -1,0 +1,26 @@
+2019-05-04 19:14:35 INFO  main [mtsutil.cpp:232] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
+2019-05-04 19:14:36 INFO  main [mtsutil.cpp:366] Loading utility "tonemap" ..
+2019-05-04 19:14:36 INFO  main [Tonemap] Loading image "/data/chromaticSceneStatistics/color_filter_matching/exp8_change_background_colors_and_dist/stimuli/scenes/color_diff_exp8_illum_white_spec_trans_munsell_blue_lighter.exr" ..
+2019-05-04 19:14:36 INFO  main [Tonemap] Tonemapper reports: log-average luminance = 0.002708, max. luminance = 0.248010
+2019-05-04 19:14:36 INFO  main [Tonemap] Writing tonemapped image to "/data/chromaticSceneStatistics/color_filter_matching/exp8_change_background_colors_and_dist/stimuli/scenes/color_diff_exp8_illum_white_spec_trans_munsell_blue_lighter.png" ..
+2019-05-04 19:14:36 INFO  main [Tonemap] Loading image "/data/chromaticSceneStatistics/color_filter_matching/exp8_change_background_colors_and_dist/stimuli/scenes/color_diff_exp8_illum_white_spec_trans_munsell_blue_lightest.exr" ..
+2019-05-04 19:14:36 INFO  main [Tonemap] Tonemapper reports: log-average luminance = 0.004297, max. luminance = 1.095904
+2019-05-04 19:14:36 INFO  main [Tonemap] Writing tonemapped image to "/data/chromaticSceneStatistics/color_filter_matching/exp8_change_background_colors_and_dist/stimuli/scenes/color_diff_exp8_illum_white_spec_trans_munsell_blue_lightest.png" ..
+2019-05-04 19:14:36 INFO  main [Tonemap] Loading image "/data/chromaticSceneStatistics/color_filter_matching/exp8_change_background_colors_and_dist/stimuli/scenes/color_diff_exp8_illum_white_spec_trans_munsell_green_lighter.exr" ..
+2019-05-04 19:14:36 INFO  main [Tonemap] Tonemapper reports: log-average luminance = 0.002535, max. luminance = 0.229744
+2019-05-04 19:14:36 INFO  main [Tonemap] Writing tonemapped image to "/data/chromaticSceneStatistics/color_filter_matching/exp8_change_background_colors_and_dist/stimuli/scenes/color_diff_exp8_illum_white_spec_trans_munsell_green_lighter.png" ..
+2019-05-04 19:14:36 INFO  main [Tonemap] Loading image "/data/chromaticSceneStatistics/color_filter_matching/exp8_change_background_colors_and_dist/stimuli/scenes/color_diff_exp8_illum_white_spec_trans_munsell_green_lightest.exr" ..
+2019-05-04 19:14:36 INFO  main [Tonemap] Tonemapper reports: log-average luminance = 0.003557, max. luminance = 0.371995
+2019-05-04 19:14:36 INFO  main [Tonemap] Writing tonemapped image to "/data/chromaticSceneStatistics/color_filter_matching/exp8_change_background_colors_and_dist/stimuli/scenes/color_diff_exp8_illum_white_spec_trans_munsell_green_lightest.png" ..
+2019-05-04 19:14:36 INFO  main [Tonemap] Loading image "/data/chromaticSceneStatistics/color_filter_matching/exp8_change_background_colors_and_dist/stimuli/scenes/color_diff_exp8_illum_white_spec_trans_munsell_red_lighter.exr" ..
+2019-05-04 19:14:36 INFO  main [Tonemap] Tonemapper reports: log-average luminance = 0.002714, max. luminance = 0.242576
+2019-05-04 19:14:36 INFO  main [Tonemap] Writing tonemapped image to "/data/chromaticSceneStatistics/color_filter_matching/exp8_change_background_colors_and_dist/stimuli/scenes/color_diff_exp8_illum_white_spec_trans_munsell_red_lighter.png" ..
+2019-05-04 19:14:36 INFO  main [Tonemap] Loading image "/data/chromaticSceneStatistics/color_filter_matching/exp8_change_background_colors_and_dist/stimuli/scenes/color_diff_exp8_illum_white_spec_trans_munsell_red_lightest.exr" ..
+2019-05-04 19:14:36 INFO  main [Tonemap] Tonemapper reports: log-average luminance = 0.004342, max. luminance = 1.150748
+2019-05-04 19:14:36 INFO  main [Tonemap] Writing tonemapped image to "/data/chromaticSceneStatistics/color_filter_matching/exp8_change_background_colors_and_dist/stimuli/scenes/color_diff_exp8_illum_white_spec_trans_munsell_red_lightest.png" ..
+2019-05-04 19:14:36 INFO  main [Tonemap] Loading image "/data/chromaticSceneStatistics/color_filter_matching/exp8_change_background_colors_and_dist/stimuli/scenes/color_diff_exp8_illum_white_spec_trans_munsell_yellow_lighter.exr" ..
+2019-05-04 19:14:36 INFO  main [Tonemap] Tonemapper reports: log-average luminance = 0.002811, max. luminance = 0.298377
+2019-05-04 19:14:36 INFO  main [Tonemap] Writing tonemapped image to "/data/chromaticSceneStatistics/color_filter_matching/exp8_change_background_colors_and_dist/stimuli/scenes/color_diff_exp8_illum_white_spec_trans_munsell_yellow_lighter.png" ..
+2019-05-04 19:14:36 INFO  main [Tonemap] Loading image "/data/chromaticSceneStatistics/color_filter_matching/exp8_change_background_colors_and_dist/stimuli/scenes/color_diff_exp8_illum_white_spec_trans_munsell_yellow_lightest.exr" ..
+2019-05-04 19:14:36 INFO  main [Tonemap] Tonemapper reports: log-average luminance = 0.004925, max. luminance = 0.727029
+2019-05-04 19:14:36 INFO  main [Tonemap] Writing tonemapped image to "/data/chromaticSceneStatistics/color_filter_matching/exp8_change_background_colors_and_dist/stimuli/scenes/color_diff_exp8_illum_white_spec_trans_munsell_yellow_lightest.png" ..

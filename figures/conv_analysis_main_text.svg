@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="conv_analysis_main_text.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="330.76026"
+     inkscape:cy="798.10852"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1598"
+     inkscape:window-height="898"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       sodipodi:absref="/home/me/my_docs/science_projects/color_filter_matching/new_structure/color_filter_matching/figures/interp_vec_field_red_obj_mask_lighter_DKL_all_colors_no_blur_.png"
+       xlink:href="interp_vec_field_red_obj_mask_lighter_DKL_all_colors_no_blur_.png"
+       width="182.50323"
+       height="93.065018"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeQuality"
+       id="image906"
+       x="-36.439926"
+       y="99.076546" />
+    <image
+       sodipodi:absref="/home/me/my_docs/science_projects/color_filter_matching/new_structure/color_filter_matching/figures/div_vec_field_red_obj_mask_lighter_DKL_all_colors_no_blur_.png"
+       xlink:href="div_vec_field_red_obj_mask_lighter_DKL_all_colors_no_blur_.png"
+       width="103.87389"
+       height="90.940186"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeQuality"
+       id="image1030"
+       x="109.72598"
+       y="99.356117" />
+    <image
+       sodipodi:absref="/home/me/my_docs/science_projects/color_filter_matching/new_structure/color_filter_matching/general_analysis/output/divergence/linear_map_red_obj_mask_lighter_DKL_all_colors_no_blur_.png"
+       y="6.1778126"
+       x="92.184357"
+       id="image5256"
+       xlink:href="file:///home/me/my_docs/science_projects/color_filter_matching/new_structure/color_filter_matching/general_analysis/output/divergence/linear_map_red_obj_mask_lighter_DKL_all_colors_no_blur_.png"
+       style="image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="93.329498"
+       width="124.43933" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5717"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:56px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion5719"><rect
+           id="rect5721"
+           width="38.385796"
+           height="80.812202"
+           x="6.0609155"
+           y="15.392496" /></flowRegion><flowPara
+         id="flowPara5723" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.8166666px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="2.2187428"
+       y="14.806355"
+       id="text5727"><tspan
+         sodipodi:role="line"
+         id="tspan5725"
+         x="2.2187428"
+         y="14.806355"
+         style="stroke-width:0.26458332">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.8166666px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="105.35712"
+       y="14.806"
+       id="text5727-6"><tspan
+         sodipodi:role="line"
+         id="tspan5725-9"
+         x="105.35712"
+         y="14.806"
+         style="stroke-width:0.26458332">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.8166666px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1.5020094"
+       y="110.00425"
+       id="text5727-6-9"><tspan
+         sodipodi:role="line"
+         id="tspan5725-9-1"
+         x="1.5020094"
+         y="110.00425"
+         style="stroke-width:0.26458332">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.8166666px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="105.35683"
+       y="110.21433"
+       id="text5727-6-9-6"><tspan
+         sodipodi:role="line"
+         id="tspan5725-9-1-8"
+         x="105.35683"
+         y="110.21433"
+         style="stroke-width:0.26458332">D</tspan></text>
+    <image
+       sodipodi:absref="/home/me/my_docs/science_projects/color_filter_matching/new_structure/color_filter_matching/images/patterned/mitsuba_caustics_rgb_trans_illum_blue_refl_munsell_red_lighter.png"
+       y="9.137907"
+       x="14.203425"
+       id="image5095"
+       xlink:href="file:///home/me/my_docs/science_projects/color_filter_matching/new_structure/color_filter_matching/images/patterned/mitsuba_caustics_rgb_trans_illum_blue_refl_munsell_red_lighter.png"
+       style="image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="87.659012"
+       width="87.659012" />
+  </g>
+</svg>

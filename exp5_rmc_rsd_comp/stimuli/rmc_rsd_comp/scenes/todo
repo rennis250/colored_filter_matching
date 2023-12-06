@@ -1,0 +1,35 @@
+- find 5 good examples:
+
+[1] "scenes/mitsuba_comp_rmc_rsd_illum_3_rg_1_by_2_ld_2_bkgd_voronoi_green.xml"
+[1] "scenes/mitsuba_comp_rmc_rsd_illum_3_rg_1_by_2_ld_2_bkgd_voronoi_green.png"
+
+[2] "scenes/mitsuba_comp_rmc_rsd_illum_3_rg_1_by_4_ld_2_bkgd_voronoi_red.xml"
+[2] "scenes/mitsuba_comp_rmc_rsd_illum_3_rg_1_by_4_ld_2_bkgd_voronoi_red.png"
+
+[3] "scenes/mitsuba_comp_rmc_rsd_illum_4_rg_1_by_2_ld_1_bkgd_voronoi_diff_dist.xml"
+[3] "scenes/mitsuba_comp_rmc_rsd_illum_4_rg_1_by_2_ld_1_bkgd_voronoi_diff_dist.png"
+
+[4] "scenes/mitsuba_comp_rmc_rsd_illum_4_rg_3_by_1_ld_2_bkgd_voronoi_diff_dist.xml"
+[4] "scenes/mitsuba_comp_rmc_rsd_illum_4_rg_3_by_1_ld_2_bkgd_voronoi_diff_dist.png"
+
+[5] "scenes/mitsuba_comp_rmc_rsd_illum_4_rg_3_by_4_ld_1_bkgd_voronoi_yellow.xml"
+[5] "scenes/mitsuba_comp_rmc_rsd_illum_4_rg_3_by_4_ld_1_bkgd_voronoi_yellow.png"
+
+- make 5 extra versions of them with slightly brighter backgrounds:
+
+[1] "scenes/mitsuba_comp_rmc_rsd_illum_3_rg_1_by_2_ld_2_bkgd_voronoi_green_brighter.xml"
+[1] "scenes/mitsuba_comp_rmc_rsd_illum_3_rg_1_by_2_ld_2_bkgd_voronoi_green_brighter.png"
+
+[2] "scenes/mitsuba_comp_rmc_rsd_illum_3_rg_1_by_4_ld_2_bkgd_voronoi_red_brighter.xml"
+[2] "scenes/mitsuba_comp_rmc_rsd_illum_3_rg_1_by_4_ld_2_bkgd_voronoi_red_brighter.png"
+
+[3] "scenes/mitsuba_comp_rmc_rsd_illum_4_rg_1_by_2_ld_1_bkgd_voronoi_diff_dist_brighter.xml"
+[3] "scenes/mitsuba_comp_rmc_rsd_illum_4_rg_1_by_2_ld_1_bkgd_voronoi_diff_dist_brighter.png"
+
+[4] "scenes/mitsuba_comp_rmc_rsd_illum_4_rg_3_by_1_ld_2_bkgd_voronoi_diff_dist_brighter.xml"
+[4] "scenes/mitsuba_comp_rmc_rsd_illum_4_rg_3_by_1_ld_2_bkgd_voronoi_diff_dist_brighter.png"
+
+[5] "scenes/mitsuba_comp_rmc_rsd_illum_4_rg_3_by_4_ld_1_bkgd_voronoi_yellow_brighter.xml"
+[5] "scenes/mitsuba_comp_rmc_rsd_illum_4_rg_3_by_4_ld_1_bkgd_voronoi_yellow_brighter.png"
+
+- find free computer for experiment and run for 4 trials on each

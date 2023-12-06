@@ -1,0 +1,32 @@
+Converting RGB to LAB
+=====================
+
+- When presenting stimuli on a monitor, it is standard practice to use the XYZ coordinates of the maximum white of the monitor as the "illuminant" when converting RGB values to LAB values.
+
+Plotting our illuminants in LAB
+===============================
+
+- Our illuminants were measured from our JUST Normlicht LED light box with a PR white reference and a Konica CS-2000A.
+- The illuminants were artifically brightened by scaling them and were desaturated somewhat by mixing them together (70%+30% mixtures; e.g., 70% of blue + 30% of yellow to get a desaturated blue). The brightening was necessary because our illuminant is a small sphere (the only thing that would give decent caustics and highlights) and the scene is too dim otherwise.
+- These were then input to Mitsuba, which downsamples our spectral measurement from 400 wavelength bands to 47, and it was allowed to do its computations. Also, based on some documentation from the RenderToolbox, it appears that Mitsuba also does some scaling of the spectra before rendering.
+- For our stimuli, Mitsuba's output was saved in a high dynamic range OpenEXR 16-bit format. Mitsuba's provided Rheinhard tonemapping utility was then used to convert this to an 8-bit format to be displayed on our monitors.
+- There are other ways to get the data from the OpenEXR format for display on our monitor that avoid the spatial non-linearities of the Rheihard tonemapper and preserve more color fidelity, but all Matlab OpenEXR interfaces I found were either too old or not compiling and it would have taken too long to put together our own Matlab-C interface.
+- Because of the non-linear behaviour of the tonemapping, it is better to compute the illuminant from Mitsuba's rendered images, since the tonemapping essentially distorts the properties of the scene.
+- We did this by using the same scene, removed the Glaven, and put an oriented Lambertian white plane (equal reflectance at all wavelengths) at the center, so that it best reflected the light from the illuminant to Mitsuba's camera. We kept the background the same because the tonemapper is sensitive to local and global features of a scene, so best to leave it as consistent as possible across all images.
+- We then took the average of a 100x100 patch of RGB pixel values across the center of this plane, converted them to LAB, using our monitor's maximum white as the "illuminant" in the LAB conversion, and this became the coordinates of our illuminants in LAB.
+- Also, now, that I think about it, I could have just used Mitsuba's default 8-bit PNG output, which just does gamma correction and could have avoided the tonemapping mess, but I would need to check if the highlights are blown out then. If the highlights are fine, then this would have been better and is something I should consider for the future...
+
+Mitsuba, textures, and the colors of our background
+===================================================
+
+- Mitsuba does not allow for textures where each pixel contains a spectrum. Actually, I have not seen a rendering system yet that allows this. So, only 8-bit RGB textures can be given into the system.
+- It is unclear what Mitsuba does when a multispectral illuminant interacts with a surface that has an RGB color. Does Mitsuba use some constraints to find a decent "natural" reflectance spectrum that gives the same RGB under a neutral illuminant? Does it reduce the illuminant spectrum to RGB and continue with rendering? If it reduces the spectrum, does it undo that later to provide the best multispectral render possible?
+- This is not specified in the documentation and I haven't had a chance to look at the code yet.
+- Because of this, we cannot just compute the colors produced by the reflectances of our walls under an equal energy white and transform that to the xyY chromaticity diagram.
+- Instead, we have Mitsuba render our background under a neutral equal energy white and use the resulting luminances and chromaticities that come from our experiment monitor. This is the best we can do.
+
+Gamma exponents for monitors
+============================
+
+Eizo = [2.1442, 2.1514, 1.9483]
+OLED = [2.1101, 2.1244, 2.0172]

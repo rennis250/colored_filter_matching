@@ -1,0 +1,4 @@
+2020-11-14 14:09:43 INFO  main [mtsutil.cpp:232] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
+2020-11-14 14:09:43 INFO  main [mtsutil.cpp:366] Loading utility "tonemap" ..
+2020-11-14 14:09:43 INFO  main [Tonemap] Loading image "/home/irina/Dokumente/flat_filter_comparison/flat_filter.exr" ..
+2020-11-14 14:09:43 INFO  main [Tonemap] Writing tonemapped image to "/home/irina/Dokumente/flat_filter_comparison/flat_filter.png" ..

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg11058"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="dark_yellow_diff_dist_rmc_rsd_comp_settings.svg">
+  <defs
+     id="defs11052" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="342.23181"
+     inkscape:cy="778.81267"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1598"
+     inkscape:window-height="898"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata11055">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       sodipodi:absref="/home/me/my_docs/science_projects/color_filter_matching/new_structure/color_filter_matching/images/exp5/mitsuba_comp_rmc_rsd_illum_4_rg_3_by_1_ld_2_bkgd_voronoi_diff_dist.png"
+       y="3.1100783"
+       x="4.1767306"
+       id="image11761"
+       xlink:href="file:///home/me/my_docs/science_projects/color_filter_matching/new_structure/color_filter_matching/images/exp5/mitsuba_comp_rmc_rsd_illum_4_rg_3_by_1_ld_2_bkgd_voronoi_diff_dist.png"
+       style="image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="64.139297"
+       width="64.139297" />
+    <image
+       sodipodi:absref="/home/me/my_docs/science_projects/color_filter_matching/new_structure/color_filter_matching/images/exp5/mitsuba_comp_rmc_rsd_illum_4_rg_3_by_1_ld_2_bkgd_voronoi_diff_dist_brighter.png"
+       y="3.1100783"
+       x="68.316025"
+       id="image11826"
+       xlink:href="file:///home/me/my_docs/science_projects/color_filter_matching/new_structure/color_filter_matching/images/exp5/mitsuba_comp_rmc_rsd_illum_4_rg_3_by_1_ld_2_bkgd_voronoi_diff_dist_brighter.png"
+       style="image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="64.139"
+       width="64.139" />
+    <image
+       sodipodi:absref="/home/me/my_docs/science_projects/color_filter_matching/new_structure/color_filter_matching/images/exp5/voronoi_matches/voronoi_filter_illum_4_rg_3_by_1_ld_2_bkgd_voronoi_diff_dist.png"
+       y="67.249374"
+       x="4.1770282"
+       id="image11990"
+       xlink:href="file:///home/me/my_docs/science_projects/color_filter_matching/new_structure/color_filter_matching/images/exp5/voronoi_matches/voronoi_filter_illum_4_rg_3_by_1_ld_2_bkgd_voronoi_diff_dist.png"
+       style="image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="64.139"
+       width="64.139" />
+    <image
+       sodipodi:absref="/home/me/my_docs/science_projects/color_filter_matching/new_structure/color_filter_matching/images/exp5/voronoi_matches/voronoi_filter_illum_4_rg_3_by_1_ld_2_bkgd_voronoi_diff_dist_brighter.png"
+       y="67.249077"
+       x="68.316025"
+       id="image12084"
+       xlink:href="file:///home/me/my_docs/science_projects/color_filter_matching/new_structure/color_filter_matching/images/exp5/voronoi_matches/voronoi_filter_illum_4_rg_3_by_1_ld_2_bkgd_voronoi_diff_dist_brighter.png"
+       style="image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="64.139"
+       width="64.139" />
+  </g>
+</svg>

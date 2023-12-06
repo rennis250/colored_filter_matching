@@ -1,0 +1,5 @@
+HS Parameters
+           Parameter           Value
+
+               alpha           0.350
+          iterations            2000

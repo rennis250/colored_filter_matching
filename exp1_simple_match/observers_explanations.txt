@@ -1,0 +1,10 @@
+Descriptions by observers of what they tried to do during the task
+==================================================================
+
+- First grabbed a whole impression of the glass. Then, tried to account for the illuminant color. Next, thought that "one" of the caustics, as seen through the glass, and the tiny sparkly caustics on the left side of the glass were not really a part of the background, but instead gave a good impression of the glass's color. Then, tried to use that to set hue and saturation and adjusted luminance "to best fit the overall impression" of the glass. Found it overall a bit odd though to make a patch the same color as 3-D glass.
+
+- Paid attention to the darker parts of the object, since the observer was able to recognize that the highlights were due to the illuminant and the caustics were not really a part of the glass object. Their settings though still showed an overshoot in luminance, but they had some of the lowest luminance settings of all observers in Exps. 1 and 2.
+
+- Paid attention mostly to the top of the object and ignored the highlight. Sometimes used the caustics towards the bottom as an additional source of info for hue and saturation, but mainly used the top of the object for luminance adjustment.
+
+- Paid attention more to the color of the region just next to the highlight, within specular reflections, since this seemed to be a location containing enough colors to get a good idea of the object.

@@ -1,0 +1,9 @@
+Source-Sink Detection Parameters
+
+           Parameter           Value
+
+                Nmin               5
+         Lmin_source         0.05000
+           Lmax_sink        -0.05000
+      Nnested_source               2
+        Nnested_sink               2

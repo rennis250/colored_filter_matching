@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+        <!--
+
+            Automatically converted from COLLADA
+
+        -->
+
+        <scene version="0.6.0">
+            <integrator type="mlt"/>
+
+            <sensor type="perspective">
+                <float name="farClip" value="100"/>
+                <float name="fov" value="24.11"/>
+                <string name="fovAxis" value="x"/>
+                <float name="nearClip" value="0.1"/>
+
+                <transform name="toWorld">
+                    <scale x="-1"/>
+                    <lookat target="0.5, 3, 1.5" origin="6, 12, 5" up="0, 0, 1.9"/>
+                </transform>
+
+                <sampler type="independent">
+                    <integer name="sampleCount" value="1000"/>
+                </sampler>
+
+                <film type="hdrfilm">
+                    <boolean name="highQualityEdges" value="true"/>
+                    <string name="fileFormat" value="openexr"/>
+                    <string name="componentFormat" value="float16"/>
+                    <string name="pixelFormat" value="rgb"/>
+                    <boolean name="banner" value="false"/>
+                    <integer name="height" value="400"/>
+                    <integer name="width" value="400"/>
+                    <rfilter type="gaussian">
+                        <float name="stddev" value="0.5"/>
+                    </rfilter>
+                </film>
+            </sensor>
+
+            <bsdf type="diffuse" id="white">
+                <spectrum name="reflectance" filename="../../../base_stimuli/spectra/whiteWallspectrum.spd"/>
+            </bsdf>
+
+            <bsdf type="diffuse" id="colored_noise">
+                <texture type="bitmap" name="reflectance">
+                    <string name="filename" value="../voronoi0.png"/>
+                    <string name="wrapMode" value="mirror"/>
+                </texture>
+            </bsdf>
+
+            <shape id="Plane-mesh_0" type="serialized">
+                <ref id="white"/>
+                <string name="filename" value="../../../base_stimuli/blender/curveyBoxOverhead.serialized"/>
+                <integer name="shapeIndex" value="0"/>
+                <transform name="toWorld">
+                    <matrix value="5 0 0 0 0 5.5 0 0.5 0 0 5 0 0 0 0 1"/>
+                </transform>
+            </shape>
+
+            <shape id="Plane_001-mesh_0" type="serialized">
+                <ref id="white"/>
+                <string name="filename" value="../../../base_stimuli/blender/curveyBoxOverhead.serialized"/>
+                <integer name="shapeIndex" value="1"/>
+                <transform name="toWorld">
+                    <rotate x="1" angle="180"/>
+                    <matrix value="-2.18557e-07 0 5 5 0 5 0 0 -5 0 -2.18557e-07 5 0 0 0 1"/>
+                </transform>
+            </shape>
+
+            <shape id="Plane_002-mesh_0" type="serialized">
+                <ref id="white"/>
+                <string name="filename" value="../../../base_stimuli/blender/curveyBoxOverhead.serialized"/>
+                <integer name="shapeIndex" value="2"/>
+                <transform name="toWorld">
+                    <matrix value="-2.18557e-07 0 5 -5 0 5 0 0 -5 0 -2.18557e-07 5 0 0 0 1"/>
+                </transform>
+            </shape>
+
+            <shape id="Plane_003-mesh_0" type="serialized">
+                <ref id="white"/>
+                <string name="filename" value="../../../base_stimuli/blender/curveyBoxOverhead.serialized"/>
+                <integer name="shapeIndex" value="3"/>
+                <transform name="toWorld">
+                    <rotate x="1" angle="180"/>
+                    <matrix value="5 0 0 0 0 -2.18557e-07 -5 -5 0 5 -2.18557e-07 5 0 0 0 1"/>
+                </transform>
+            </shape>
+            
+		<shape type="sphere">
+			<transform name="toWorld">
+				<scale value="0.2"/>
+				<translate x="3.3" y="3.5" z="3.5"/>
+			</transform>
+			<emitter type="area">
+				<spectrum name="radiance" value="5"/>
+			</emitter>
+		</shape>
+
+            <shape id="BigGlaven1_002-mesh_0" type="serialized">
+                <bsdf type="dielectric">
+                    <spectrum name="specularTransmittance" filename="../../../base_stimuli/spectra/munsell_green_lighter.spd"/>
+                    <spectrum name="specularReflectance" filename="../../../base_stimuli/spectra/munsell_green_lighter.spd"/>
+                </bsdf>
+                <string name="filename" value="../../../base_stimuli/blender/curveyBoxOverhead.serialized"/>
+                <integer name="shapeIndex" value="6"/>
+                <transform name="toWorld">
+				<rotate x="1" angle="-90"/>
+				<matrix value="0.100000000000000 0 0 0 0 0.100000000000000 0 3 0 0 0.100000000000000 1.5 0 0 0 1.000000000000000"/>
+                </transform>
+            </shape>
+        </scene>

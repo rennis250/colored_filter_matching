@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+        <!--
+
+            Automatically converted from COLLADA
+
+        -->
+
+        <scene version="0.6.0">
+            <integrator type="adaptive">
+                <float name="maxError" value="0.03"/>
+                <integer name="maxSampleFactor" value="40"/>
+
+                <integrator type="volpath">
+                    <integer name="maxDepth" value="25000"/>
+                    <integer name="rrDepth" value="2000"/>
+                </integrator>
+            </integrator>
+
+            <sensor type="perspective">
+                <float name="farClip" value="100"/>
+                <float name="fov" value="24.11"/>
+                <string name="fovAxis" value="x"/>
+                <float name="nearClip" value="0.1"/>
+
+                <!-- <transform name="toWorld">
+                    <lookat target="0, 0, 0.825" origin="0, 28.2, 18" up="0, 0.0384, 0.99926"/>
+                    <matrix value="-0.998306 0.021646 -0.0568093 0 0.043727 -0.828797 -0.875157 28.2 0.0383878 1.50699 -0.480492 18 0 0 0 1"/>
+                </transform> -->
+
+                <transform name="toWorld">
+                    <scale x="-1"/>
+
+                    <!-- <lookat target="1.12091, 13.15, 11.7531" origin="1.16968, 13.9565, 12.3422" up="0.127302, -0.590097, 0.797232"/> -->
+                    <lookat target="-0.2, -1, 0.85" origin="0.2, 12, 9" up="-0.0384, 0, 0.99926"/>
+                </transform>
+
+                <sampler type="independent">
+                    <integer name="sampleCount" value="40"/>
+                </sampler>
+
+                <film type="hdrfilm">
+                    <boolean name="banner" value="false"/>
+                    <boolean name="highQualityEdges" value="true"/>
+                    <string name="pixelFormat" value="rgb"/>
+                    <string name="componentFormat" value="float16"/>
+                    <string name="fileFormat" value="openexr"/>
+                    <integer name="height" value="350"/>
+                    <integer name="width" value="350"/>
+                    <rfilter type="gaussian">
+                        <float name="stddev" value="0.5"/>
+                    </rfilter>
+                </film>
+            </sensor>
+
+            <bsdf type="diffuse" id="white">
+                <spectrum name="reflectance" filename="whiteWallspectrum.spd"/>
+            </bsdf>
+
+            <bsdf type="diffuse" id="colored_noise">
+                <texture type="bitmap" name="reflectance">
+                    <string name="filename" value="colors_many_litte.jpg"/>
+                </texture>
+            </bsdf>
+
+            <shape id="Plane-mesh_0" type="serialized">
+                <ref id="colored_noise"/>
+                <string name="filename" value="blender/curveyBoxOverhead.serialized"/>
+                <integer name="shapeIndex" value="0"/>
+                <transform name="toWorld">
+                    <matrix value="5 0 0 0 0 5.5 0 0.5 0 0 5 0 0 0 0 1"/>
+                </transform>
+            </shape>
+
+            <shape id="Plane_001-mesh_0" type="serialized">
+                <ref id="colored_noise"/>
+                <string name="filename" value="blender/curveyBoxOverhead.serialized"/>
+                <integer name="shapeIndex" value="1"/>
+                <transform name="toWorld">
+                    <rotate x="1" angle="180"/>
+                    <matrix value="-2.18557e-07 0 5 5 0 5 0 0 -5 0 -2.18557e-07 5 0 0 0 1"/>
+                </transform>
+            </shape>
+
+            <shape id="Plane_002-mesh_0" type="serialized">
+                <ref id="colored_noise"/>
+                <string name="filename" value="blender/curveyBoxOverhead.serialized"/>
+                <integer name="shapeIndex" value="2"/>
+                <transform name="toWorld">
+                    <matrix value="-2.18557e-07 0 5 -5 0 5 0 0 -5 0 -2.18557e-07 5 0 0 0 1"/>
+                </transform>
+            </shape>
+
+            <shape id="Plane_003-mesh_0" type="serialized">
+                <ref id="colored_noise"/>
+                <string name="filename" value="blender/curveyBoxOverhead.serialized"/>
+                <integer name="shapeIndex" value="3"/>
+                <transform name="toWorld">
+                    <rotate x="1" angle="180"/>
+                    <matrix value="5 0 0 0 0 -2.18557e-07 -5 -5 0 5 -2.18557e-07 5 0 0 0 1"/>
+                </transform>
+            </shape>
+
+            <shape id="Plane_004-mesh_0" type="serialized">
+                <bsdf type="difftrans"/>
+                <string name="filename" value="blender/curveyBoxOverhead.serialized"/>
+                <integer name="shapeIndex" value="4"/>
+                <transform name="toWorld">
+                    <rotate x="1" angle="180"/>
+                    <matrix value="5 0 0 0 0 5 0 0 0 0 1 10 0 0 0 1"/>
+                </transform>
+            </shape>
+
+            <shape id="Plane_005-mesh_0" type="serialized">
+                <emitter type="area">
+                    <spectrum name="radiance" filename="illum_red.spd"/>
+                </emitter>
+                <string name="filename" value="blender/curveyBoxOverhead.serialized"/>
+                <integer name="shapeIndex" value="5"/>
+                <transform name="toWorld">
+                    <rotate x="1" angle="180"/>
+                    <matrix value="10 0 0 0 0 5 0 0 0 0 5 20 0 0 0 1"/>
+                </transform>
+            </shape>
+
+            <shape id="BigGlaven1_002-mesh_0" type="serialized">
+                <bsdf type="dielectric">
+                    <spectrum name="specularTransmittance" filename="munsell_green.spd"/>
+                </bsdf>
+                <string name="filename" value="blender/curveyBoxOverhead.serialized"/>
+                <integer name="shapeIndex" value="6"/>
+                <transform name="toWorld">
+                    <matrix value="0.0337151 -1.61395e-09 0.0369228 0 -0.0369228 -1.47373e-09 0.0337151 0 0 -0.05 -2.18557e-09 0.82 0 0 0 1"/>
+                </transform>
+            </shape>
+        </scene>

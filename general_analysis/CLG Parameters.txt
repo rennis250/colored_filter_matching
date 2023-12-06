@@ -1,0 +1,9 @@
+CLG Parameters
+           Parameter           Value
+
+               alpha           0.030
+               ratio            0.50
+            minWidth              75
+  nOuterFPIterations               7
+  nInnerFPIterations               1
+      nSORIterations              30
